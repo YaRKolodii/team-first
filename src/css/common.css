@@ -6,7 +6,7 @@ html {
 
 .container{
     min-width: 320px;
-    max-width: 374px;
+    max-width: 335px;
     margin: 0 auto; 
 
 }
@@ -19,7 +19,7 @@ html {
         padding-bottom: 60px;
     }
     .container{
-         margin: 0 auto; 
+        margin: 0 auto; 
     }
 }
 
