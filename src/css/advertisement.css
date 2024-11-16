@@ -1,0 +1,42 @@
+.advertisement {
+    background-image: url(../img/advertisement/advert-mob.jpg);
+    border-radius: 29px;
+}
+
+.text-advertisement {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.btn-advertisement {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+    border-radius: 50%;
+    height: 48px;
+    min-width: 160px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+}
+
+.btn-advertisement:hover,
+:focus {
+ background-color:  #fbfbfb;
+ color: #0c0c0c;
+}
+
