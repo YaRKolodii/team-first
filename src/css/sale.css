@@ -127,6 +127,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
   .sale-title {
     font-size: 48px;
     line-height: 0.9;
@@ -203,6 +208,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sale {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .gallery-desk {
     display: flex;
     align-items: flex-start;
