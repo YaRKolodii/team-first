@@ -11,7 +11,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  min-width: 320px;
+  min-width: 280px;
+  max-width: 335px;
 }
 
 .contact-modal-form {
@@ -124,6 +125,8 @@
   }
 
   .contact-box {
+    min-width: 704px;
+    max-width: 1215px;
     gap: 40px;
   }
 
