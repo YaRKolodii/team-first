@@ -63,6 +63,7 @@
   .about-us-content {
     padding: 80px 60px;
     margin-bottom: 40px;
+    border-radius: 50px;
   }
 
   .about-us-title {
@@ -94,6 +95,7 @@
     padding: 80px 60px;
     margin-bottom: 0px;
     max-width: 580px;
+    border-radius: 50px;
   }
 
   .about-us-title {
