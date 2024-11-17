@@ -2,14 +2,13 @@ html {
     font-family: 'Gilroy', sans-serif;
     scroll-behavior: smooth;
 }
-section{
-        
+section{ 
     padding-bottom: 60px;
 }
 
 .container {
     min-width: 320px;
-    max-width: 335px;
+    max-width: 375px;
     margin: 0 auto; 
     padding-left: 20px; 
     padding-right: 20px;
@@ -29,7 +28,6 @@ section{
 
 @media screen and (min-width: 1280px) {
     section{
-        
         padding-bottom: 100px; 
     }
     .container{
