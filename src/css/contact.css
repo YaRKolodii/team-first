@@ -11,6 +11,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  min-width: 280px;
+  max-width: 335px;
 }
 
 .contact-modal-form {
@@ -107,7 +109,7 @@
 .form-button:hover,
 .form-button:focus {
   color: #fbfbfb;
-  background-color: #3350e9;
+  background-color: #1f3cd4;
 }
 
 .contact-box picture {
@@ -123,6 +125,8 @@
   }
 
   .contact-box {
+    min-width: 704px;
+    max-width: 1215px;
     gap: 40px;
   }
 
@@ -187,7 +191,7 @@
 
   .contact-modal-form {
     padding: 50px 60px;
-
+    width: 580px;
     min-height: 556px;
   }
 }
