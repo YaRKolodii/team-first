@@ -1,0 +1,360 @@
+<<<<<<< HEAD
+
+
+.hero-container {
+    padding-bottom: 60px;
+ }
+ 
+ 
+ .hero-text-box {
+    margin-bottom: 28px;
+ }
+ .highlight {
+    color: #3350e9;
+ }
+ .hero-title {
+=======
+.hero-container {
+    /* padding: 60px 20px; */
+}
+
+.highlight {
+    color: #3350e9;
+}
+
+.hero-background {}
+
+
+.hero {
+    /* font-family: 'Gilroy', sans-serif; */
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.hero-container {
+    margin: 0 auto;
+}
+
+.hero-text-box {
+    margin-top: 60px;
+    margin-bottom: 28px;
+
+}
+
+.hero-title {
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+<<<<<<< HEAD
+ }
+ .hero-text {
+=======
+}
+
+.hero-text {
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+<<<<<<< HEAD
+ }
+ .hero-images-scroll {
+=======
+}
+
+.highlight {
+    color: #3350e9;
+}
+
+.hero-images-scroll {
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 28px;
+<<<<<<< HEAD
+ }
+ .hero-list {
+    display: flex;
+ }
+ .hero-item {
+    position: relative;
+ }
+ .hero-item {
+    margin-left: -10%;
+ }
+ .hero-item:first-child {
+    margin-left: 0;
+ }
+ .hero-img {
+=======
+}
+
+.hero-list {
+    display: flex;
+}
+
+.hero-item {
+    position: relative;
+}
+
+.hero-item {
+    margin-left: -10%;
+}
+
+.hero-item:first-child {
+    margin-left: 0;
+}
+
+/* .hero-item:first-child {
+    transform: translateX(0);
+}
+
+.hero-item:nth-child(2) {
+    transform: translateX(-25%);
+}
+
+.hero-item:nth-child(3) {
+    transform: translateX(-50%);
+} */
+
+.hero-img {
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    width: 100%;
+    display: block;
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+<<<<<<< HEAD
+ }
+ @media (min-width: 768px) and (max-width: 1279px) {
+=======
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    .hero-img {
+        width: 56px;
+        height: 56px;
+    }
+<<<<<<< HEAD
+ }
+ @media (min-width: 1280px) {
+=======
+}
+
+@media (min-width: 1280px) {
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    .hero-img {
+        width: 60px;
+        height: 60px;
+    }
+<<<<<<< HEAD
+ }
+ .scroll-link {
+    display: block;
+=======
+}
+
+
+.scroll-link {
+    display: block;
+    font-family: "Gilroy", sans-serif;
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #0c0c0c;
+<<<<<<< HEAD
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .scroll-link:is(:hover, :focus) {
+    color: #3350e9;
+ }
+ .hero-picture img {
+    border-radius: 30px;
+ }
+ @media screen and (min-width: 768px) {
+=======
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-link:is(:hover, :focus) {
+    color: #3350e9;
+}
+
+.hero-picture {}
+
+@media screen and (min-width: 768px) {
+
+    .hero {
+        max-width: 768px;
+    }
+
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    .hero-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+<<<<<<< HEAD
+        padding-bottom: 80px;
+   
+    }
+    .hero-text-box {
+        max-width: 553px;
+        margin-bottom: 40px;
+        margin-right: 11px;
+    }
+    .hero-title {
+        font-size: 70px;
+        line-height: 0.86;
+    }
+=======
+        /* place-items: start; */
+
+    }
+
+    .hero-text-box {
+        max-width: 553px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        margin-right: 11px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        line-height: 0.86;
+
+    }
+
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    .hero-text {
+        font-size: 16px;
+        line-height: 1.25;
+        max-width: 480px;
+        margin-bottom: 40px;
+    }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    .hero-images-scroll {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 140px;
+<<<<<<< HEAD
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .scroll-link {
+        font-size: 20px;
+        line-height: 1;
+       
+    }
+    .hero-picture img {
+        width: 704px;
+        height: auto;
+        border-radius: 50px;
+    }
+ 
+ 
+ }
+ @media screen and (min-width: 1158px) {
+   
+    .hero-container {
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+    .hero-text-box {
+        max-width: 597px;
+    }
+    .hero-title {
+        font-size: 72px;
+        line-height: 0.88;
+    }
+    .hero-images-scroll {
+        max-width: 150px;
+    }
+=======
+        /* max-height: 260px; */
+        height: auto;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+
+    .scroll-link {
+        font-size: 20px;
+        line-height: 1;
+        /* text-align: center; */
+        /* align-self: flex-end; */
+    }
+
+    .hero-picture img {
+        width: 704px;
+        height: auto;
+    }
+}
+
+
+@media (min-resolution: 192dpi) and (min-width: 768px) {
+    /* .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/offcie-tab@2x.jpg);
+    } */
+}
+
+@media screen and (min-width: 1158px) {
+    .hero {
+        /* padding-top: 188px; */
+        /* padding-bottom: 188px; */
+        max-width: 1280px;
+        /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); */
+    }
+
+    .hero-container {
+        justify-content: space-between;
+    }
+
+    .hero-text-box {
+        max-width: 597px;
+    }
+
+    .hero-title {
+        font-size: 72px;
+        line-height: 0.88;
+        /* margin-bottom: 48px; */
+    }
+
+    .hero-images-scroll {
+        max-width: 155px;
+    }
+
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
+    .hero-picture img {
+        width: 1150px;
+        height: auto;
+    }
+<<<<<<< HEAD
+ }
+ 
+=======
+}
+
+@media (min-resolution: 192dpi) and (min-width: 1158px) {
+    .hero {
+        /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg); */
+    }
+
+}
+>>>>>>> ed0dbac808e92c64860aa25b25b612e72fde21e1
