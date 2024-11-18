@@ -1,6 +1,11 @@
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   padding-bottom: 0;
+
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
 }
 
 .container.header-container {
@@ -10,6 +15,12 @@
 }
 
 .header-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +44,7 @@
 }
 
 .menu-btn {
+  display: block;
   background-color: transparent;
   border: none;
 }
@@ -43,9 +55,6 @@
 }
 
 /* =============== MEDIA =============== */
-
-@media screen and (min-width: 375px) and (max-width: 767px) {
-}
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .header-logo {
@@ -67,8 +76,12 @@
     font-weight: 500;
     font-size: 20px;
   }
-
   .header-nav {
+    width: 100%;
+    display: flex;
+  }
+
+  .header-nav-content {
     display: flex;
     justify-content: space-between;
   }
@@ -185,6 +198,7 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  z-index: 999;
 
   transform: translateX(0);
 }
