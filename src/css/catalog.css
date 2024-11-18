@@ -34,6 +34,7 @@ padding-top: 24px;
 }
 
 
+
 .sub-dic-box {
 display: flex;
 flex-direction: column;
@@ -83,7 +84,15 @@ cursor: pointer;
 .img-none {
         display: none;
     }
+
+
+.img-item {
+    margin: auto;
 }
+
+}    
+
+
 
 /* <!---------(TABLET)---------> */
 
