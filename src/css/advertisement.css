@@ -1,8 +1,16 @@
 @media screen and (min-width: 335px) {
 
+    .container {
+        min-width: 320px;
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+
 .advertisement {
     background-color: #0C0C0C;
-    background-image: url(/img/advertisement/advert-mob.jpg);
+    background-image: url(/img/advertisement/advert-mob.webp);
     border-radius: 29px;
     margin-bottom: 60px;
     margin-top: 60px;
@@ -14,7 +22,7 @@
     (min-resolution: 2dppx),
     (-webkit-min-device-pixel-radio: 2) {
         .advertisement {
-            background-image: url(/img/advertisement/advert-mob@2x.jpg);
+            background-image: url(/img/advertisement/advert-mob@2x.webp);
         }
     }
 
@@ -64,9 +72,16 @@
 
 @media screen and (min-width: 768px) {
 
+    .container {
+        min-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin: 0 auto;
+    }
+
     .advertisement  {
         background-color: #0C0C0C;
-        background-image: url(/img/advertisement/advert-tab-min.jpg);
+        background-image: url(/img/advertisement/advert-tab.webp);
         border-radius: 29px;
         padding-right: 32px;
         padding-left: 32px;
@@ -81,7 +96,7 @@
     (min-resolution: 2dppx),
     (-webkit-min-device-pixel-radio: 2) {
         .advertisement {
-            background-image: url(/img/advertisement/advert-tab@2x.jpg);
+            background-image: url(/img/advertisement/advert-tab@2x.webp);
         }
     }
 
@@ -131,15 +146,22 @@
 
 @media screen and (min-width: 1280px) {
 
-    /* .container {
+    .container {
+        min-width: 1280px;
+        padding-left: 65px;
+        padding-right: 65px;
+        margin: 0 auto;
+    }
+
+    .container-advertisement {
         display: flex;
         justify-content: space-between;
         align-items: center
-    } */
+    } 
 
     .advertisement {
         background-color: #0C0C0C;
-        background-image: url(/img/advertisement/advert-desk.jpg);
+        background-image: url(/img/advertisement/advert-desk.webp);
         border-radius: 29px;
         padding-right: 65px;
         padding-left: 65px;
@@ -153,7 +175,7 @@
     (min-resolution: 2dppx),
     (-webkit-min-device-pixel-radio: 2) {
         .advertisement {
-            background-image: url(../img/advertisement/advert-desk@2x.jpg);
+            background-image: url(/img/advertisement/advert-desk@2x.webp);
         }
     }
 
