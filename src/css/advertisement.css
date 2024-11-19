@@ -194,6 +194,9 @@
         margin: 0 auto;
         padding-left: 65px;
         padding-right: 65px;
+    }
+
+    .container-advertisement {
         display: flex;
         justify-content: space-between;
         align-items: center
