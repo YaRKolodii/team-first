@@ -130,8 +130,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-    /* .container {
+    .container-advertisement {
         display: flex;
         justify-content: space-between;
         align-items: center
