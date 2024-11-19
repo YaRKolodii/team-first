@@ -1,8 +1,21 @@
 @media screen and (min-width: 335px) {
 
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        bottom: 0;
+        padding: 0;
+       white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
     .container {
         min-width: 320px;
-        max-width: 335px;
+        max-width: 375px;
         margin: 0 auto;
         padding-left: 20px;
         padding-left: 20px;
@@ -17,8 +30,16 @@
     margin-top: 60px;
     background-repeat: no-repeat;
     position: relative;
-
 }
+
+@media screen and (min-resolution: 192dpi), 
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+        .advertisement {
+            background-image: url(/img/advertisement/advert-mob@2x.jpg);
+        }
+    }
+
 
 .text-advertisement {
     font-family: "Gilroy", sans-serif;
@@ -64,7 +85,21 @@
 }
 }
 
+
 @media screen and (min-width: 768px) {
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        bottom: 0;
+        padding: 0;
+       white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
     .container {
         min-width: 768px;
@@ -85,6 +120,14 @@
         background-repeat: no-repeat;
         position: center;
         background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi), 
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+        .advertisement {
+            background-image: url(/img/advertisement/advert-tab@2x.jpg);
+        }
     }
 
     .text-advertisement {
@@ -133,11 +176,27 @@
 
 @media screen and (min-width: 1280px) {
 
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        bottom: 0;
+        padding: 0;
+       white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
     .container {
         min-width: 1280px;
         margin: 0 auto;
         padding-left: 65px;
         padding-right: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
     }
 
     .advertisement {
@@ -148,9 +207,16 @@
         padding-left: 65px;
         margin-bottom: 100px;
         margin-top: 100px;
-        position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi), 
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+        .advertisement {
+            background-image: url(../img/advertisement/advert-desk@2x.jpg);
+        }
     }
 
     .text-advertisement {
@@ -163,6 +229,7 @@
         text-align: left;
         padding-top: 83px;
         padding-bottom: 83px;
+        width: 690px;
     }
 
     .gray-text {
@@ -186,5 +253,7 @@
         padding-right: 43px;
         padding-bottom: 15px;
         padding-left: 44px;
+        margin-right: 80px;
+        margin-left: 140px;
     }
 }
