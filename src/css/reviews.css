@@ -11,7 +11,7 @@
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .reviews-list{
@@ -106,6 +106,10 @@ ul li:first-child {
 
     .reviews-item{
         min-width: 344px;
+    }
+
+    .reviews-title{
+        margin-bottom: 40px;
     }
 }
 
