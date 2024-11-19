@@ -80,15 +80,14 @@ background: #3350e9;
 cursor: pointer;
 }
 
+.img-item {
+    margin: auto;
+}
+
 @media screen and (max-width: 767px){
 .img-none {
         display: none;
     }
-
-
-.img-item {
-    margin: auto;
-}
 
 }    
 
