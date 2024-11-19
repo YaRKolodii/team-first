@@ -1,0 +1,123 @@
+.about-us-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background: #f3f3f3;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+
+.about-us-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+}
+
+.about-us-content p {
+  margin-bottom: 20px;
+}
+
+.about-us-content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-collection {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 40px;
+}
+
+.button-viem-catalog {
+  display: inline-block;
+  padding: 15px 38px;
+  background-color: #3350e9;
+  color: #fbfbfb;
+  text-decoration: none;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 160px;
+}
+
+.button-viem-catalog:hover,
+.button-viem-catalog:focus {
+  background-color: #1f3cd4;
+}
+
+.about-us picture {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-content {
+    padding: 80px 60px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+  }
+
+  .about-us-title {
+    font-size: 48px;
+    line-height: 0.92;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+  }
+
+  .about-us-content p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .about-collection {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 60px;
+  }
+
+  .about-us picture {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-content {
+    padding: 80px 60px;
+    margin-bottom: 0px;
+    max-width: 580px;
+    border-radius: 50px;
+  }
+
+  .about-us-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .about-collection {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+
+  .about-us picture {
+    border-radius: 50px;
+  }
+
+  .about-us-desk {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+}
