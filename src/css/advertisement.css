@@ -85,6 +85,19 @@
 
 @media screen and (min-width: 1280px) {
 
+    .advertisement  {
+        background-color: #0C0C0C;
+        background-image: url(/img/advertisement/advert-tab.webp);
+        border-radius: 29px;
+        padding-right: 32px;
+        padding-left: 32px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        position: center;
+        background-size: cover;
+    }
+
   .container-advertisement {
     background-color: #0c0c0c;
     background-image: url(/img/advertisement/advert-desk.webp),
