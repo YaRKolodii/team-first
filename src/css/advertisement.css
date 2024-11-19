@@ -1,0 +1,198 @@
+
+@media screen and (min-width: 335px) {
+
+.advertisement {
+    background-color: #0C0C0C;
+    background-image: url(/img/advertisement/advert-mob.jpg);
+    border-radius: 29px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+
+@media screen and (min-resolution: 192dpi), 
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+        .advertisement {
+            background-image: url(/img/advertisement/advert-mob@2x.jpg);
+        }
+    }
+
+
+    .text-advertisement {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding-top: 60px;
+    margin-bottom: 28px;
+    }
+
+    .gray-text {
+    color: gray;
+    }
+
+    .btn-advertisement {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+    border-radius: 50%;
+    height: 48px;
+    min-width: 160px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    padding-top: 15px;
+    padding-right: 43px;
+    padding-bottom: 15px;
+    padding-left: 44px;
+    margin-bottom: 60px;
+    }
+
+    .btn-advertisement:hover,
+    :focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .advertisement  {
+        background-color: #0C0C0C;
+        background-image: url(/img/advertisement/advert-tab-min.jpg);
+        border-radius: 29px;
+        padding-right: 32px;
+        padding-left: 32px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        background-repeat: no-repeat;
+        position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi), 
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+        .advertisement {
+            background-image: url(/img/advertisement/advert-tab@2x.jpg);
+        }
+    }
+
+    .text-advertisement {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 92%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        text-align: left;
+        padding-top: 80px;
+        padding-bottom: 32px;
+    }
+
+    .gray-text {
+        color: gray;
+    }
+
+    .btn-advertisement {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        color: #fbfbfb;
+        border-radius: 50%;
+        height: 48px;
+        min-width: 160px;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        padding-top: 15px;
+        padding-right: 43px;
+        padding-bottom: 15px;
+        padding-left: 44px;
+
+    }
+
+    .btn-advertisement:hover,
+    :focus {
+     background-color:  #fbfbfb;
+     color: #0c0c0c;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    } */
+
+    .advertisement {
+        background-color: #0C0C0C;
+        background-image: url(/img/advertisement/advert-desk.jpg);
+        border-radius: 29px;
+        padding-right: 65px;
+        padding-left: 65px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi), 
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+        .advertisement {
+            background-image: url(../img/advertisement/advert-desk@2x.jpg);
+        }
+    }
+
+    .text-advertisement {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 92%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        text-align: left;
+        padding-top: 83px;
+        padding-bottom: 83px;
+        width: 690px;
+    }
+
+    .gray-text {
+        color: gray;
+    }
+
+    .btn-advertisement {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        color: #fbfbfb;
+        text-align: center;
+        height: 48px;
+        min-width: 160px;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        padding-top: 15px;
+        padding-right: 43px;
+        padding-bottom: 15px;
+        padding-left: 44px;
+        margin-right: 80px;
+        margin-left: 140px;
+    }
+}
