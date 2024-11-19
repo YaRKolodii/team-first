@@ -101,7 +101,6 @@
     .hero-images-scroll {
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
         max-width: 140px;
         height: auto;
         margin-top: 80px;
