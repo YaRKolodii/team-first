@@ -1,27 +1,5 @@
 @media screen and (min-width: 335px) {
 
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        bottom: 0;
-        padding: 0;
-       white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
-
-    .container {
-        min-width: 320px;
-        max-width: 375px;
-        margin: 0 auto;
-        padding-left: 20px;
-        padding-left: 20px;
-
-    }
-
 .advertisement {
     background-color: #0C0C0C;
     background-image: url(/img/advertisement/advert-mob.jpg);
@@ -30,7 +8,7 @@
     margin-top: 60px;
     background-repeat: no-repeat;
     position: relative;
-}
+    }
 
 @media screen and (min-resolution: 192dpi), 
     (min-resolution: 2dppx),
@@ -41,7 +19,7 @@
     }
 
 
-.text-advertisement {
+    .text-advertisement {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
@@ -50,14 +28,13 @@
     color: #fbfbfb;
     padding-top: 60px;
     margin-bottom: 28px;
-
     }
 
-.gray-text {
+    .gray-text {
     color: gray;
-}
+    }
 
-.btn-advertisement {
+    .btn-advertisement {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -76,38 +53,16 @@
     padding-bottom: 15px;
     padding-left: 44px;
     margin-bottom: 60px;
-}
+    }
 
-.btn-advertisement:hover,
-:focus {
- background-color: #fbfbfb;
- color: #0c0c0c;
+    .btn-advertisement:hover,
+    :focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+    }
 }
-}
-
 
 @media screen and (min-width: 768px) {
-
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        bottom: 0;
-        padding: 0;
-       white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
-
-    .container {
-        min-width: 768px;
-        margin: 0 auto;
-        padding-left: 32px;
-        padding-right: 32px;
-
-    }
 
     .advertisement  {
         background-color: #0C0C0C;
@@ -176,28 +131,11 @@
 
 @media screen and (min-width: 1280px) {
 
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        bottom: 0;
-        padding: 0;
-       white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
-
-    .container {
-        min-width: 1280px;
-        margin: 0 auto;
-        padding-left: 65px;
-        padding-right: 65px;
+    /* .container {
         display: flex;
         justify-content: space-between;
         align-items: center
-    }
+    } */
 
     .advertisement {
         background-color: #0C0C0C;
