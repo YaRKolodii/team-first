@@ -24,14 +24,13 @@ flex-wrap: wrap;
 gap: 10px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
-width: 335px;
-height: 364px;
 background: #f3f3f3;
 padding-left: 28px;
 padding-right: 28px;
 padding-bottom: 24px;
 padding-top: 24px;
 }
+
 
 
 .sub-dic-box {
@@ -79,11 +78,18 @@ background: #3350e9;
 cursor: pointer;
 }
 
+.img-item {
+    margin: auto;
+}
+
 @media screen and (max-width: 767px){
 .img-none {
         display: none;
     }
-}
+
+}    
+
+
 
 /* <!---------(TABLET)---------> */
 
