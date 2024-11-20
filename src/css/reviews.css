@@ -11,6 +11,7 @@
 .reviews-list{
 display: flex;
 justify-content: center;
+
 }
 
 .reviews-item{
@@ -54,11 +55,11 @@ border-radius: 30px;
     justify-content: center;
 }
 
-ul li {
+.reviews-list .reviews-item {
     display: none;
 }
 
-ul li:first-child {
+.reviews-list .reviews-item:first-child {
     display: block;
 }
 
