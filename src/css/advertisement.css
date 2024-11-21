@@ -1,0 +1,115 @@
+.container-advertisement {
+  min-width: 280px;
+  max-width: 335px;
+  background-color: #0c0c0c;
+  background-image: url(/img/advertisement/advert-mob.webp),
+    linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+  border-radius: 29px;
+  padding: 60px 28px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-resolution: 192dpi),
+  (min-resolution: 2dppx),
+  (-webkit-min-device-pixel-radio: 2) {
+  .container-advertisement {
+    background-image: url(/img/advertisement/advert-mob@2x.webp),
+      linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+  }
+}
+
+.text-advertisement {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.gray-text {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.btn-advertisement {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  height: 48px;
+  width: 160px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.btn-advertisement:hover,
+.btn-advertisement:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .container-advertisement {
+    min-width: 704px;
+    max-width: 1215px;
+    background-color: #0c0c0c;
+    background-image: url(/img/advertisement/advert-tab.webp),
+      linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    border-radius: 29px;
+    padding: 80px 64px;
+  }
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+    .container-advertisement {
+      background-image: url(/img/advertisement/advert-tab@2x.webp),
+        linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+  }
+
+  .text-advertisement {
+    font-size: 48px;
+    line-height: 92%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-advertisement {
+    background-color: #0c0c0c;
+    background-image: url(/img/advertisement/advert-desk.webp),
+      linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    border-radius: 29px;
+    padding: 83px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-radio: 2) {
+    .container-advertisement {
+      background-image: url(/img/advertisement/advert-desk@2x.webp),
+        linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+  }
+
+  .flex-container-advertisement {
+    display: flex;
+    gap: 140px;
+  }
+
+  .text-advertisement {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 0;
+  }
+}
