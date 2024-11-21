@@ -123,6 +123,12 @@
   width: 83px;
 }
 
+.footer-box-nav-address-link:hover,
+:focus {
+  background-color: #0c0c0c;
+  color: #fbfbfb;
+}
+
 .footer-box-copyright-descr {
   font-weight: 500;
   font-size: 10px;
