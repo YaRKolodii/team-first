@@ -24,8 +24,6 @@ flex-wrap: wrap;
 gap: 10px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
-width: 335px;
-height: 364px;
 background: #f3f3f3;
 padding-left: 28px;
 padding-right: 28px;
@@ -34,7 +32,8 @@ padding-top: 24px;
 }
 
 
-.sub-dic-box {
+
+.sub-desc-box {
 display: flex;
 flex-direction: column;
 gap: 8px;
@@ -79,14 +78,38 @@ background: #3350e9;
 cursor: pointer;
 }
 
+.show-more:focus, 
+.show-more:active {
+background: #1f3cd4;
+color: #fbfbfb;
+}
+
+.img-item {
+margin: auto;
+}
+
 @media screen and (max-width: 767px){
 .img-none {
-        display: none;
-    }
+display: none;
 }
+
+.main-subtitle-tab,
+.main-subtitle-desk {
+    display: none;
+}
+
+}    
+
+
 
 /* <!---------(TABLET)---------> */
 
+@media (min-width: 768px) and (max-width: 1279px) {
+    .main-subtitle,
+    .main-subtitle-desk {
+    display: none;
+    }
+}
 @media screen and (min-width: 768px) {
 
 .show-more {
@@ -127,13 +150,13 @@ padding-top: 24px;
 }
 
 
-.sub-dic-box {
+.sub-desc-box {
 display: flex;
 flex-direction: column;
 gap: 8px;
 }
 
-.main-subtitle {
+.main-subtitle-tab {
 font-family: "Gilroy", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -159,6 +182,11 @@ color: rgba(12, 12, 12, 0.5);
 
 @media screen and (min-width: 1280px) {
  
+.main-subtitle,
+.main-subtitle-tab {
+display: none;
+}
+
 .show-more {
     display: none;
 }
@@ -190,20 +218,21 @@ border-radius: 30px;
 width: 368px;
 height: 414px;
 background: #f3f3f3;
-padding-left: 32px;
-padding-right: 32px;
+padding-left: 31px;
+padding-right: 31px;
 padding-bottom: 24px;
 padding-top: 24px;
 }
 
 
-.sub-dic-box {
+.sub-desc-box {
 display: flex;
 flex-direction: column;
 gap: 8px;
+
 }
 
-.main-subtitle {
+.main-subtitle-desk {
 font-family: "Gilroy", sans-serif;
 font-weight: 500;
 font-size: 20px;
